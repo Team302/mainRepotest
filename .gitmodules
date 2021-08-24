@@ -1,6 +1,0 @@
-[submodule "subrepotest1"]
-	path = subrepotest1
-	url = https://github.com/Team302/subrepotest1
-[submodule "subrepotest2"]
-	path = subrepotest2
-	url = https://github.com/Team302/subrepotest2
