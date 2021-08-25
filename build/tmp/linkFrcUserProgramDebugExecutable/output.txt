@@ -1,0 +1,47 @@
+See file:///C:/GitRepos/2021SwerveBot/build/tmp/linkFrcUserProgramDebugExecutable/output.txt for all output for linkFrcUserProgramDebugExecutable.
+linking frcUserProgram failed.
+C:\GitRepos\2021SwerveBot\build\objs\frcUserProgram\debug\frcUserProgramCpp\3cuvk3r19i8cmxojwh71985nv\SwerveDrive.o: In function `SwerveDrive::Init()':
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:69: undefined reference to `team302::gamepad::TeleopControl::SetAxisProfile(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER, team302::gamepad::IDragonGamePad::AXIS_PROFILE)'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:70: undefined reference to `team302::gamepad::TeleopControl::SetDeadBand(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER, team302::gamepad::IDragonGamePad::AXIS_DEADBAND)'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:71: undefined reference to `team302::gamepad::TeleopControl::SetAxisScaleFactor(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER, double)'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:74: undefined reference to `team302::gamepad::TeleopControl::SetAxisProfile(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER, team302::gamepad::IDragonGamePad::AXIS_PROFILE)'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:75: undefined reference to `team302::gamepad::TeleopControl::SetDeadBand(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER, team302::gamepad::IDragonGamePad::AXIS_DEADBAND)'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:76: undefined reference to `team302::gamepad::TeleopControl::SetAxisScaleFactor(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER, double)'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:79: undefined reference to `team302::gamepad::TeleopControl::SetAxisProfile(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER, team302::gamepad::IDragonGamePad::AXIS_PROFILE)'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:80: undefined reference to `team302::gamepad::TeleopControl::SetDeadBand(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER, team302::gamepad::IDragonGamePad::AXIS_DEADBAND)'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:81: undefined reference to `team302::gamepad::TeleopControl::SetAxisScaleFactor(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER, double)'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:84: undefined reference to `team302::gamepad::TeleopControl::SetAxisProfile(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER, team302::gamepad::IDragonGamePad::AXIS_PROFILE)'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:85: undefined reference to `team302::gamepad::TeleopControl::SetAxisProfile(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER, team302::gamepad::IDragonGamePad::AXIS_PROFILE)'
+C:\GitRepos\2021SwerveBot\build\objs\frcUserProgram\debug\frcUserProgramCpp\3cuvk3r19i8cmxojwh71985nv\SwerveDrive.o: In function `SwerveDrive::Run()':
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:103: undefined reference to `team302::gamepad::TeleopControl::IsButtonPressed(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:216: undefined reference to `team302::gamepad::TeleopControl::GetAxisValue(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:217: undefined reference to `team302::gamepad::TeleopControl::GetAxisValue(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:218: undefined reference to `team302::gamepad::TeleopControl::GetAxisValue(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:221: undefined reference to `team302::gamepad::TeleopControl::GetAxisValue(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:112: undefined reference to `team302::gamepad::TeleopControl::IsButtonPressed(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:119: undefined reference to `team302::gamepad::TeleopControl::IsButtonPressed(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:125: undefined reference to `team302::gamepad::TeleopControl::IsButtonPressed(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:131: undefined reference to `team302::gamepad::TeleopControl::IsButtonPressed(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:138: undefined reference to `team302::gamepad::TeleopControl::IsButtonPressed(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\build\objs\frcUserProgram\debug\frcUserProgramCpp\3cuvk3r19i8cmxojwh71985nv\SwerveDrive.o:C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:149: more undefined references to `team302::gamepad::TeleopControl::IsButtonPressed(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const' follow
+C:\GitRepos\2021SwerveBot\build\objs\frcUserProgram\debug\frcUserProgramCpp\3cuvk3r19i8cmxojwh71985nv\SwerveDrive.o: In function `SwerveDrive::Run()':
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:226: undefined reference to `team302::gamepad::TeleopControl::GetAxisValue(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\build\objs\frcUserProgram\debug\frcUserProgramCpp\3cuvk3r19i8cmxojwh71985nv\SwerveDrive.o: In function `SwerveDrive::SwerveDrive()':
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\chassis/SwerveDrive.cpp:42: undefined reference to `team302::gamepad::TeleopControl::GetInstance()'
+C:\GitRepos\2021SwerveBot\build\objs\frcUserProgram\debug\frcUserProgramCpp\6vkxynzfgvdw4ih9vmyn9sg7\ShooterStateMgr.o: In function `ShooterStateMgr::RunCurrentState()':
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\shooter/ShooterStateMgr.cpp:183: undefined reference to `team302::gamepad::TeleopControl::GetInstance()'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\shooter/ShooterStateMgr.cpp:188: undefined reference to `team302::gamepad::TeleopControl::IsButtonPressed(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\shooter/ShooterStateMgr.cpp:204: undefined reference to `team302::gamepad::TeleopControl::IsButtonPressed(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\shooter/ShooterStateMgr.cpp:216: undefined reference to `team302::gamepad::TeleopControl::IsButtonPressed(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\shooter/ShooterStateMgr.cpp:228: undefined reference to `team302::gamepad::TeleopControl::IsButtonPressed(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\shooter/ShooterStateMgr.cpp:240: undefined reference to `team302::gamepad::TeleopControl::IsButtonPressed(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\build\objs\frcUserProgram\debug\frcUserProgramCpp\b44pp59qr98yoozu70l1qmy8j\BallTransferStateMgr.o: In function `BallTransferStateMgr::RunCurrentState()':
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\balltransfer/BallTransferStateMgr.cpp:129: undefined reference to `team302::gamepad::TeleopControl::GetInstance()'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\balltransfer/BallTransferStateMgr.cpp:132: undefined reference to `team302::gamepad::TeleopControl::IsButtonPressed(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\balltransfer/BallTransferStateMgr.cpp:138: undefined reference to `team302::gamepad::TeleopControl::IsButtonPressed(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+C:\GitRepos\2021SwerveBot\build\objs\frcUserProgram\debug\frcUserProgramCpp\b7yqsqfel87058r2z61sdmoyc\TurretStateMgr.o: In function `TurretStateMgr::RunCurrentState()':
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\turret/TurretStateMgr.cpp:127: undefined reference to `team302::gamepad::TeleopControl::GetInstance()'
+C:\GitRepos\2021SwerveBot\src\main\cpp\states\turret/TurretStateMgr.cpp:130: undefined reference to `team302::gamepad::TeleopControl::IsButtonPressed(team302::gamepad::TeleopControl::FUNCTION_IDENTIFIER) const'
+collect2.exe: error: ld returned 1 exit status
+
+Finished linkFrcUserProgramDebugExecutable, see full log file:///C:/GitRepos/2021SwerveBot/build/tmp/linkFrcUserProgramDebugExecutable/output.txt.

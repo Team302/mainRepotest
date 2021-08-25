@@ -1,0 +1,52 @@
+See file:///C:/GitRepos/2021SwerveBot/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramDebugExecutableFrcUserProgramCpp.
+compiling DriveTime.cpp successful.
+
+compiling DriveDirection.cpp successful.
+
+compiling FunctionMap.cpp successful.
+
+compiling PrimitiveFactory.cpp successful.
+
+compiling DragonVision.cpp successful.
+
+compiling BallHopperStateMgr.cpp successful.
+
+compiling BallTransferStateMgr.cpp successful.
+
+compiling ZeroWheels.cpp successful.
+
+compiling IntakeStateMgr.cpp successful.
+
+compiling Mech1MotorState.cpp successful.
+
+compiling Robot.cpp successful.
+
+compiling Mech2MotorState.cpp successful.
+
+compiling ShooterStateMgr.cpp successful.
+
+compiling TurretStateMgr.cpp successful.
+
+compiling SwerveDrive.cpp successful.
+
+compiling SwerveChassisFactory.cpp successful.
+
+compiling SwerveModule.cpp successful.
+
+compiling GoalDetection.cpp successful.
+
+compiling RobotDefn.cpp successful.
+
+compiling SwerveChassis.cpp successful.
+C:\GitRepos\2021SwerveBot\src\main\cpp\subsys\SwerveChassis.cpp: In member function 'void SwerveChassis::CalcSwerveModuleStates(frc::ChassisSpeeds)':
+C:\GitRepos\2021SwerveBot\src\main\cpp\subsys\SwerveChassis.cpp:529:10: warning: variable 'omega' set but not used [-Wunused-but-set-variable]
+     auto omega = speeds.omega;
+          ^~~~~
+
+compiling SwerveChassisDefn.cpp successful.
+
+compiling TurnAngle.cpp successful.
+
+compiling DriveDistance.cpp successful.
+
+Finished compileFrcUserProgramDebugExecutableFrcUserProgramCpp, see full log file:///C:/GitRepos/2021SwerveBot/build/tmp/compileFrcUserProgramDebugExecutableFrcUserProgramCpp/output.txt.
